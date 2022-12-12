@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    color: rgb(12, 12, 12);
+    line-height: 20px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+.wrap{
+    width: 100%;
+    min-width: 1240;
+}
+
+.header{
+    height: 80px;
+}
+
+.headerin{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.gnb ul{
+    display: flex;
+}
+
+.gnb ul li{
+    margin-right: 50px;
+}
+
+.gnb li a:hover{
+    color: crimson;
+}
+
+.gnb li a{
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+}
+
+.member ul{
+    display: flex;
+}
+
+.member ul li{
+    margin-left: 15px;
+}
+
+.member li a:hover{
+    text-decoration: underline;
+}
+
+.member li a{
+    color: rgb(12, 12, 12);
+}
